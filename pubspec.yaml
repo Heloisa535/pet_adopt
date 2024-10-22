@@ -1,0 +1,44 @@
+name: pet_adopt
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if você desejar publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png  
+    - assets/images/background.png
+    - assets/images/nome.png
+    - assets/images/pet0.png
+    - assets/images/pet1.png
+    - assets/images/pet2.png
+    - assets/images/pet3.png
+    - assets/images/pet4.png
+    - assets/images/pet6.png
+    - assets/images/pet7.png
+    - assets/images/pet8.png
+    - assets/images/pet9.png
+    - assets/images/back.png
+    - assets/images/icon0.png
+    - assets/images/icon1.png
+    - assets/images/icon2.png
+    - assets/images/icon3.png
+    - assets/images/icon4.png
+
+   
