@@ -46,14 +46,14 @@ class _PetDetailScreenState extends State<PetDetailScreen> {
       ),
       body: Stack(
         children: [
-          // Imagem de fundo
+         
           Positioned.fill(
             child: Image.asset(
               'assets/images/background.png', 
               fit: BoxFit.cover,
             ),
           ),
-          // Conteúdo principal
+         
           SingleChildScrollView(
             child: Column(
               children: [
