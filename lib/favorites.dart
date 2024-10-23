@@ -1,5 +1,5 @@
 class Favorites {
-  static final List<String> _favoritePets = []; // Lista para armazenar os favoritos
+  static final List<String> _favoritePets = []; 
 
   static void addFavorite(String petName) {
     if (!_favoritePets.contains(petName)) {

@@ -10,7 +10,7 @@ class TelaLogin extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/background.png'), // Caminho da imagem de background
+            image: AssetImage('assets/images/background.png'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -21,7 +21,7 @@ class TelaLogin extends StatelessWidget {
             children: [
               SizedBox(height: 80),
               Image.asset(
-                'assets/images/logo.png', // Caminho da logo
+                'assets/images/logo.png', 
                 width: 200,
                 height: 200,
               ),
@@ -58,7 +58,7 @@ class TelaLogin extends StatelessWidget {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {
-                    // Função para esquecimento de senha
+                    
                   },
                   child: Text(
                     'Esqueceu a Senha?',
@@ -78,7 +78,7 @@ class TelaLogin extends StatelessWidget {
 onPressed: () {
   Navigator.push(
     context,
-    MaterialPageRoute(builder: (context) => Home()), // Certifique-se de que 'Home' esteja corretamente importado e definido
+    MaterialPageRoute(builder: (context) => Home()), 
   );
 },
 
@@ -95,7 +95,7 @@ onPressed: () {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Cadastro()), // Navega para Cadastro
+                    MaterialPageRoute(builder: (context) => Cadastro()), 
                   );
                 },
                 child: Text(

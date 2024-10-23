@@ -117,11 +117,11 @@ class _AllPetsScreenState extends State<AllPetsScreen> {
               // Lista de pets
               GridView.builder(
                 padding: const EdgeInsets.all(8.0),
-                physics: NeverScrollableScrollPhysics(), // Desabilita o scroll do grid
-                shrinkWrap: true, // Permite que o grid se ajuste ao tamanho do conteúdo
+                physics: NeverScrollableScrollPhysics(), 
+                shrinkWrap: true, 
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, // Número de colunas
-                  childAspectRatio: 0.75, // Proporção de aspecto dos cards
+                  crossAxisCount: 2, 
+                  childAspectRatio: 0.75, 
                   crossAxisSpacing: 8.0,
                   mainAxisSpacing: 8.0,
                 ),
@@ -220,13 +220,13 @@ class _AllPetsScreenState extends State<AllPetsScreen> {
     return GestureDetector(
       onTap: () {
         setState(() {
-          selectedCategory = category; // Atualiza a categoria selecionada
+          selectedCategory = category; 
         });
       },
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
         decoration: BoxDecoration(
-          color: selectedCategory == category ? const Color.fromARGB(255, 242, 191, 252) : Colors.white, // Muda a cor se selecionada
+          color: selectedCategory == category ? const Color.fromARGB(255, 242, 191, 252) : Colors.white, 
           borderRadius: BorderRadius.circular(20.0),
           border: Border.all(color: const Color.fromARGB(255, 242, 191, 252), width: 1.5),
         ),
@@ -235,7 +235,7 @@ class _AllPetsScreenState extends State<AllPetsScreen> {
           style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
-            color: selectedCategory == category ? Colors.black : const Color.fromARGB(255, 0, 0, 0), // Altera a cor do texto
+            color: selectedCategory == category ? Colors.black : const Color.fromARGB(255, 0, 0, 0), 
           ),
         ),
       ),

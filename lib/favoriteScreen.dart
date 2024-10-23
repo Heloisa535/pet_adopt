@@ -14,7 +14,7 @@ class FavoritesScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/background.png'), // Substitua pelo caminho da sua imagem de fundo
+            image: AssetImage('assets/images/background.png'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -31,23 +31,23 @@ class FavoritesScreen extends StatelessWidget {
                     child: ListTile(
                       contentPadding: EdgeInsets.all(10.0),
                       leading: CircleAvatar(
-                        backgroundImage: AssetImage('assets/images/pet_placeholder.png'), // Substitua pela imagem real do pet se disponível
+                        backgroundImage: AssetImage('assets/images/pet_placeholder.png'), 
                       ),
                       title: Text(
                         petName,
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                       onTap: () {
-                        // Navegar para a tela de detalhes do pet
+                       
                         Navigator.push(
                           context,
                           MaterialPageRoute(
                             builder: (context) => PetDetailScreen(
                               petName: petName,
-                              location: 'Localização desconhecida', // Substitua conforme necessário
-                              gender: 'Gênero desconhecido', // Substitua conforme necessário
-                              imagePath: 'assets/images/pet0.png', // Substitua conforme necessário
-                              description: 'Descrição não disponível', // Substitua conforme necessário
+                              location: 'Localização desconhecida', 
+                              gender: 'Gênero desconhecido', 
+                              imagePath: 'assets/images/pet0.png', 
+                              description: 'Descrição não disponível', 
                             ),
                           ),
                         );

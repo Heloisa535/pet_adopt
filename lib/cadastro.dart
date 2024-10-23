@@ -8,7 +8,7 @@ class Cadastro extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/background.png'), // Imagem de fundo
+            image: AssetImage('assets/images/background.png'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -18,9 +18,9 @@ class Cadastro extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                SizedBox(height: 80), // Espaçamento no topo
+                SizedBox(height: 80), 
                 Image.asset(
-                  'assets/images/logo.png', // Substitua pelo caminho correto da sua logo
+                  'assets/images/logo.png', 
                   width: 200,
                   height: 200,
                 ),
@@ -58,7 +58,7 @@ class Cadastro extends StatelessWidget {
                 SizedBox(height: 20),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xFF007BFF), // Cor do botão
+                    backgroundColor: Color(0xFF007BFF), 
                     padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 100),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
@@ -75,7 +75,7 @@ class Cadastro extends StatelessWidget {
                     'Entrar',
                     style: TextStyle(
                       fontSize: 18,
-                      color: Colors.white, // Cor do texto do botão
+                      color: Colors.white, 
                     ),
                   ),
                 ),

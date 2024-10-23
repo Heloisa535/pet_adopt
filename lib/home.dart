@@ -67,7 +67,7 @@ class _HomeScreenState extends State<Home> {
         title: Text('Adote um Pet'),
         actions: [
           IconButton(
-            icon: Icon(Icons.favorite), // Ícone de favoritos
+            icon: Icon(Icons.favorite), 
             onPressed: () {
               Navigator.push(
                 context,
@@ -78,7 +78,7 @@ class _HomeScreenState extends State<Home> {
           IconButton(
             icon: Icon(Icons.person),
             onPressed: () {
-              // Ação para o ícone do perfil
+              
             },
           ),
         ],
